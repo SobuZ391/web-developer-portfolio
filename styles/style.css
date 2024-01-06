@@ -190,7 +190,35 @@ font-weight: 700;
 }
 .download-cv{
     text-align: center;
+    gap: 100px;
     margin-top: 50px;
     font-size: 20px;
     font-weight: 700;
 }
+/* footer styles */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 110px;
+    gap: 150px;
+}
+.footer-column{
+    width: 50%;
+   
+}
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding: 18px 35px ;
+    border-radius: 5px;
+background: #FFF;
+border: 0;
+width: 100%;
+}
+
